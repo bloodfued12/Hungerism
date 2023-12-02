@@ -381,20 +381,6 @@ ul {
         border-radius: 10px;
     }
 
-    button {
-        width: 50px;
-        height: 40px;
-        background: black;
-        border: 2px solid yellowgreen;
-        margin-top: 50px;
-        margin-left: 5px;
-        color: #fff;
-        font-size: 15px;
-        border-radius: 10px;
-        transition: 0.2s ease;
-        cursor: pointer;
-    }
-
     .nav__toggle {
         background-color: white;
         width: 25px;
@@ -408,14 +394,14 @@ ul {
 
     .content-main {
         width: 100%;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         margin-top: 20px;
     }
 
     .content {
-        display: flex;
+        display: inline-block;
         width: 100%;
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
         position: relative;
         height: 50%;
     }
@@ -435,33 +421,37 @@ ul {
     }
 
     .content h1 {
-        font-size: 25px;
+        font-size: 30px;
         padding-left: 20px;
         letter-spacing: 2px;
         text-transform: capitalize;
         margin: auto;
+        margin-top: -10px;
     }
 
     .content span {
-        font-size: large;
+        font-size: 45px;
     }
 
     .content .par {
-        display: none;
+        width: auto;
+        padding-left: 20px;
+        padding-bottom: 25px;
+        margin-top: 10px;
+        font-family: Arial;
+        line-height: 10px;
+        font-size: 10px;
+        text-transform: capitalize;
     }
 
-    button {
-        width: 30px;
-        height: 40px;
-        margin-top: 20px;
-        margin-left: 5px;
-        color: #fff;
-        font-size: 15px;
-        border-radius: 10px;
-        transition: 0.2s ease;
-        cursor: pointer;
+    .content button {
+        width: 80px;
+        padding: 10px;
+        font-size: 10px;
+        text-align: center;
+        margin: auto 100px;
+        margin-top: -2px;
     }
 
-    
 
 }
