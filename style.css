@@ -134,6 +134,8 @@ button:focus {
     outline: none;
 }
 
+/*--------------------- index.html styling starts here ----------------*/
+
 .content-main {
     width: 100%;
     height: 600px;
@@ -226,7 +228,77 @@ button:focus {
 .icons ion-icon:hover {
     color: yellowgreen;
 }
+/* ------------------------about.html styling starts here -----------*/
+.Aboutinfo h2 {
+    color: yellowgreen;
+    font-size: 70px;
+    text-align: center;
+    border:2px solid;
+    border-radius: 20px;
+    margin-top: 10px;
+}
 
+.about-main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 20px auto;
+    border: 2px solid red; */
+    /* background: url();
+    background-repeat: no-repeat; */
+}
+
+.about {
+    width: 50%;
+    height: auto;
+    color: white;
+    position: relative;
+    /* border: 2px solid red; */
+    padding: 50px;
+}
+
+.about .two {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid white; */
+}
+
+.home-image {
+    border-radius: 30px;
+    padding: 70px;
+    margin: auto 100px;
+    position: absolute;
+    /* border: 2px solid aqua; */
+}
+
+.about .par {
+    background-color: rgba(153, 205, 50, 0.645);
+    padding:20px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    text-transform: capitalize;
+    border-radius: 20px;
+   
+}
+
+.two .para {
+    background-color: rgba(153, 205, 50, 0.645);
+    margin-top: 450px;
+    padding:20px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    text-transform: capitalize;
+    border-radius: 20px;
+   
+}
+
+
+/* --------------------------------footer styling starts here ------------ */
 .footer {
     width: 100%;
     height: auto;
