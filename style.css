@@ -228,14 +228,39 @@ button:focus {
 .icons ion-icon:hover {
     color: yellowgreen;
 }
+
 /* ------------------------about.html styling starts here -----------*/
+
 .Aboutinfo h2 {
     color: yellowgreen;
     font-size: 70px;
     text-align: center;
-    border:2px solid;
+    border: 2px solid;
     border-radius: 20px;
     margin-top: 10px;
+}
+
+.about-intro {
+    width: 100%;
+    color: white;
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    padding: 30px;
+    /* border: 2px solid white; */
+}
+
+.about-intro .intro {
+    background-color: rgba(153, 205, 50, 0.645);
+    padding: 20px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    text-transform: capitalize;
+    border-radius: 20px;
+
 }
 
 .about-main {
@@ -276,25 +301,25 @@ button:focus {
 
 .about .par {
     background-color: rgba(153, 205, 50, 0.645);
-    padding:20px;
+    padding: 20px;
     font-family: Arial;
     letter-spacing: 1.2px;
     line-height: 30px;
     text-transform: capitalize;
     border-radius: 20px;
-   
+
 }
 
 .two .para {
     background-color: rgba(153, 205, 50, 0.645);
     margin-top: 450px;
-    padding:20px;
+    padding: 20px;
     font-family: Arial;
     letter-spacing: 1.2px;
     line-height: 30px;
     text-transform: capitalize;
     border-radius: 20px;
-   
+
 }
 
 
@@ -670,29 +695,31 @@ ul {
     }
 
     .content h1 {
-        font-size: 30px;* {
+        font-size: 30px;
+
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         :root {
             --body-color: black;
             --color: yellowgreen;
             --hover-color: white;
-        
+
         }
-        
+
         body {
             margin: auto 80px;
             background-color: black;
             /* border:2px solid white; */
         }
-        
+
         .main {
             /* border:2px solid blue; */
         }
-        
+
         .navbar {
             display: flex;
             width: 100%;
@@ -701,18 +728,18 @@ ul {
             justify-content: space-evenly;
             /* border: 2px solid yellow; */
         }
-        
+
         .navbar a {
             text-decoration: none;
         }
-        
+
         .icon {
             width: 15%;
             height: 70px;
             /* border: 2px solid red; */
             margin: auto 50px;
         }
-        
+
         .logo {
             width: auto;
             color: yellowgreen;
@@ -724,7 +751,7 @@ ul {
             margin-top: 5px;
             /* border: 2px solid red; */
         }
-        
+
         .menu {
             width: 100%;
             display: flex;
@@ -735,18 +762,18 @@ ul {
             height: 70px;
             /* border: 2px solid red; */
         }
-        
+
         .menu ul {
             display: flex;
             text-align: center;
         }
-        
+
         .menu ul li {
             list-style: none;
             margin: auto 50px;
             font-size: 14px;
         }
-        
+
         .menu ul li a {
             text-decoration: none;
             color: #fff;
@@ -754,18 +781,18 @@ ul {
             font-weight: bold;
             transition: 0.4s ease-in-out;
         }
-        
+
         .menu ul li a:hover {
             color: yellowgreen;
         }
-        
+
         .search {
             width: auto;
             /* border: 2px solid red; */
             display: flex;
             margin-left: 270px;
         }
-        
+
         .srch {
             font-family: 'Times New Roman';
             width: 200px;
@@ -779,7 +806,7 @@ ul {
             padding: 10px;
             border-radius: 10px;
         }
-        
+
         button {
             width: 100px;
             height: 40px;
@@ -793,19 +820,19 @@ ul {
             transition: 0.2s ease;
             cursor: pointer;
         }
-        
+
         button:hover {
             color: yellowgreen;
         }
-        
+
         button:focus {
             outline: none;
         }
-        
+
         .srch:focus {
             outline: none;
         }
-        
+
         .content-main {
             width: 100%;
             height: 600px;
@@ -816,7 +843,7 @@ ul {
             /* background: url();
             background-repeat: no-repeat; */
         }
-        
+
         .content {
             width: 50%;
             height: 600px;
@@ -825,7 +852,7 @@ ul {
             /* border: 2px solid red; */
             padding: 50px;
         }
-        
+
         .two {
             width: 50%;
             height: 600px;
@@ -833,7 +860,7 @@ ul {
             flex-wrap: wrap;
             /* border: 2px solid white; */
         }
-        
+
         .home-image {
             border-radius: 30px;
             padding: 70px;
@@ -841,7 +868,7 @@ ul {
             position: absolute;
             /* border: 2px solid aqua; */
         }
-        
+
         .content .par {
             padding-left: 20px;
             padding-bottom: 25px;
@@ -850,7 +877,7 @@ ul {
             line-height: 30px;
             text-transform: capitalize;
         }
-        
+
         .content h1 {
             font-family: 'Times New Roman';
             font-size: 50px;
@@ -859,7 +886,7 @@ ul {
             letter-spacing: 2px;
             text-transform: capitalize;
         }
-        
+
         .content button {
             width: 160px;
             height: 40px;
@@ -872,21 +899,21 @@ ul {
             cursor: pointer;
             transition: .4s ease;
         }
-        
+
         .content button:hover {
             background-color: #fff;
         }
-        
+
         .content span {
             color: yellowgreen;
             font-size: 65px
         }
-        
+
         .icons a {
             text-decoration: none;
             color: #fff;
         }
-        
+
         .icons ion-icon {
             color: #fff;
             font-size: 30px;
@@ -894,11 +921,11 @@ ul {
             padding-top: 5px;
             transition: 0.3s ease;
         }
-        
+
         .icons ion-icon:hover {
             color: yellowgreen;
         }
-        
+
         .footer {
             width: 100%;
             height: auto;
@@ -908,11 +935,11 @@ ul {
             background-color: grey;
             margin: auto;
         }
-        
+
         .footer-main {
             position: relative;
         }
-        
+
         .row {
             display: flex;
             flex-wrap: wrap;
@@ -920,16 +947,16 @@ ul {
             align-items: center;
             margin: auto 100px;
         }
-        
+
         ul {
             list-style: none;
         }
-        
+
         .footer-col {
             width: 20%;
             padding: 15px;
         }
-        
+
         .footer-col h4 {
             font-size: 18px;
             color: yellowgreen;
@@ -938,7 +965,7 @@ ul {
             position: relative;
             font-weight: 500;
         }
-        
+
         .footer-col h4::before {
             content: '';
             position: absolute;
@@ -949,7 +976,7 @@ ul {
             box-sizing: border-box;
             width: 100px;
         }
-        
+
         .footer-col h3 {
             font-size: 16px;
             text-transform: capitalize;
@@ -959,17 +986,17 @@ ul {
             display: block;
             transition: all 0.4s ease;
         }
-        
+
         .footer-col h3:hover {
             color: black;
             padding-left: 10px;
         }
-        
-        
+
+
         .footer-col ul li:not(:last-child) {
             margin-bottom: 9px;
         }
-        
+
         .footer-col ul li a {
             font-size: 16px;
             text-transform: capitalize;
@@ -979,12 +1006,12 @@ ul {
             display: block;
             transition: all 0.4s ease;
         }
-        
+
         .footer-col ul li a:hover {
             color: black;
             padding-left: 10px;
         }
-        
+
         .footer-col .social-links a {
             display: inline-block;
             height: 40px;
@@ -997,22 +1024,22 @@ ul {
             border-radius: 5px;
             transition: all 0.5s ease;
         }
-        
+
         .footer-col .social-links a:hover {
             color: yellowgreen;
             background-color: white;
         }
-        
-        
+
+
         /* ============== break point =================== */
-        
+
         /* For medium devices */
         @media screen and (max-width: 868px) {
-        
+
             body {
                 margin: 0;
             }
-        
+
             .navbar {
                 display: flex;
                 width: 600px;
@@ -1021,13 +1048,13 @@ ul {
                 /* border:2px solid red; */
                 justify-content: space-evenly;
             }
-        
+
             .icon {
                 width: 100px;
                 margin: 0;
                 margin-top: 10px;
             }
-        
+
             .logo {
                 color: yellowgreen;
                 width: 100px;
@@ -1037,16 +1064,16 @@ ul {
                 padding: 12px;
                 /* border: 2px solid red; */
             }
-        
+
             .menu {
                 display: none;
             }
-        
+
             .search {
                 width: 150px;
                 margin-left: 0;
             }
-        
+
             .srch {
                 width: 90px;
                 height: 40px;
@@ -1058,7 +1085,7 @@ ul {
                 padding: 10px;
                 border-radius: 10px;
             }
-        
+
             .nav__toggle {
                 background-color: white;
                 width: 25px;
@@ -1069,13 +1096,13 @@ ul {
                 margin-left: 8px;
                 border-radius: 5px;
             }
-        
+
             .content-main {
                 width: 100%;
                 /* border: 2px solid red; */
                 margin-top: 20px;
             }
-        
+
             .content {
                 display: inline-block;
                 width: 100%;
@@ -1084,13 +1111,13 @@ ul {
                 height: 50%;
                 margin: auto 50px;
             }
-        
+
             .two {
                 display: flex;
                 width: 100%;
                 position: relative;
             }
-        
+
             .home-image {
                 display: flex;
                 width: 70%;
@@ -1098,7 +1125,7 @@ ul {
                 margin: auto 45px;
                 margin-top: -70px;
             }
-        
+
             .content h1 {
                 font-size: 30px;
                 padding-left: 20px;
@@ -1107,11 +1134,11 @@ ul {
                 margin: auto;
                 margin-top: -10px;
             }
-        
+
             .content span {
                 font-size: 45px;
             }
-        
+
             .content .par {
                 width: auto;
                 padding-left: 20px;
@@ -1122,7 +1149,7 @@ ul {
                 font-size: 18px;
                 text-transform: capitalize;
             }
-        
+
             .content button {
                 width: 80px;
                 padding: 10px;
@@ -1131,12 +1158,12 @@ ul {
                 margin: auto 20px;
                 margin-top: -2px;
             }
-        
+
             .footer {
                 margin: 0px;
                 width: auto;
             }
-        
+
             .row {
                 display: flex;
                 flex-wrap: nowrap;
@@ -1144,7 +1171,7 @@ ul {
                 align-items: flex-start;
                 margin: auto;
             }
-        
+
             .footer-col .social-links a {
                 display: inline-flexbox;
                 flex-direction: column;
@@ -1158,32 +1185,32 @@ ul {
                 gap: -50px;
                 transition: all 0.5s ease;
             }
-        
+
             .footer-col {
                 width: auto;
             }
-        
+
             .footer-col h4 {
                 font-size: 15px;
             }
-        
+
             .footer-col ul li a {
                 font-size: 12px;
             }
-        
+
             .footer-col h3 {
                 font-size: 12px;
             }
         }
-        
-        
+
+
         /* For small devices */
         @media screen and (max-width: 575px) {
-        
+
             body {
                 margin: 0;
             }
-        
+
             .navbar {
                 display: flex;
                 width: 390px;
@@ -1191,12 +1218,12 @@ ul {
                 justify-content: space-evenly;
                 /* border: 2px solid red; */
             }
-        
+
             .icon {
                 width: 100px;
                 margin-left: -20px;
             }
-        
+
             .logo {
                 width: 50px;
                 color: yellowgreen;
@@ -1207,16 +1234,16 @@ ul {
                 padding: 12px;
                 /* border: 2px solid red; */
             }
-        
+
             .menu {
                 display: none;
             }
-        
+
             .search {
                 width: 150px;
                 margin-left: 0;
             }
-        
+
             .srch {
                 width: 90px;
                 height: 40px;
@@ -1228,7 +1255,7 @@ ul {
                 padding: 10px;
                 border-radius: 10px;
             }
-        
+
             .nav__toggle {
                 background-color: white;
                 width: 25px;
@@ -1239,13 +1266,13 @@ ul {
                 margin-left: 8px;
                 border-radius: 5px;
             }
-        
+
             .content-main {
                 width: 390px;
                 border: 2px solid red;
                 margin-top: 20px;
             }
-        
+
             .content {
                 display: inline-block;
                 width: 100%;
@@ -1254,13 +1281,13 @@ ul {
                 height: 50%;
                 margin: auto;
             }
-        
+
             .two {
                 display: flex;
                 width: 100%;
                 position: relative;
             }
-        
+
             .home-image {
                 display: flex;
                 width: 80%;
@@ -1268,7 +1295,7 @@ ul {
                 margin: auto -0px;
                 margin-top: -50px;
             }
-        
+
             .content h1 {
                 font-size: 30px;
                 padding-left: 20px;
@@ -1277,11 +1304,11 @@ ul {
                 margin: auto;
                 margin-top: -10px;
             }
-        
+
             .content span {
                 font-size: 45px;
             }
-        
+
             .content .par {
                 width: auto;
                 padding-left: 20px;
@@ -1292,7 +1319,7 @@ ul {
                 font-size: 10px;
                 text-transform: capitalize;
             }
-        
+
             .content button {
                 width: 80px;
                 padding: 10px;
@@ -1301,12 +1328,12 @@ ul {
                 margin: auto 20px;
                 margin-top: -2px;
             }
-        
+
             .footer {
                 margin: 0px;
                 width: 390px;
             }
-        
+
             .row {
                 display: flex;
                 flex-wrap: nowrap;
@@ -1314,7 +1341,7 @@ ul {
                 align-items: flex-start;
                 margin: auto;
             }
-        
+
             .footer-col .social-links a {
                 display: inline-flexbox;
                 flex-direction: column;
@@ -1327,27 +1354,28 @@ ul {
                 border-radius: 5px;
                 transition: all 0.5s ease;
             }
-        
+
             .footer-col {
                 width: auto;
             }
-        
+
             .footer-col h4 {
                 font-size: 10px;
             }
-        
+
             .footer-col ul li a {
                 font-size: 12px;
             }
-        
+
             .footer-col h3 {
                 font-size: 10px;
             }
-        
+
             .footer-col h4::before {
                 width: 50px;
             }
         }
+
         padding-left: 20px;
         letter-spacing: 2px;
         text-transform: capitalize;
