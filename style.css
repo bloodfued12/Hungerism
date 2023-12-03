@@ -322,6 +322,158 @@ button:focus {
     border-radius: 20px;
 }
 
+/*--------------------- calender.html styling starts here ----------------*/
+
+.calender-main {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 20px auto;
+    border: 2px solid red; */
+    /* background: url();
+    background-repeat: no-repeat; */
+}
+
+.calender {
+    width: 50%;
+    height: 600px;
+    color: white;
+    position: relative;
+    /* border: 2px solid red; */
+    padding: 50px;
+}
+
+.calender-heading {
+    background-color: yellowgreen;
+    color: #3f3e3e;
+    padding: 10px;
+    text-align: center;
+    margin: 30px 0 auto;
+    border-radius: 10px 10px;
+}
+
+.days {
+    display: flex;
+    background-color: #383838;
+    border-radius: 10px 10px;
+}
+
+.day {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+}
+
+.date {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.two {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid white; */
+}
+
+form {
+    width: 300px;
+    height: 390px;
+    background-color: yellowgreen;
+    margin: auto 150px;
+    position: absolute;
+    margin-top: 80px;
+    transform: translate(0%, -5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: yellowgreen;
+    font-size: 22px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+form label {
+    color: black;
+    font-weight: bolder;
+}
+
+form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(66, 65, 65);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #ffffff7d;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+/* .calender h1 {
+    font-family: "Times New Roman";
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+} */
+
+.calender button {
+    width: 160px;
+    height: 40px;
+    background: rgb(8, 8, 8);
+    border: none;
+    margin-bottom: 10px;
+    margin: 50px 40px;
+    font-size: 18px;
+    border-radius: 10px 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.calender button:hover {
+    background-color: #fff;
+}
+
+.calender span {
+    color: yellowgreen;
+    font-size: 65px;
+}
+
 /* --------------------------------footer styling starts here ------------ */
 .footer {
     width: 100%;
@@ -450,7 +602,7 @@ ul {
         position: fixed;
         margin: auto;
         right: -350px;
-        top:0px;
+        top: 0px;
         background-color: rgba(153, 205, 50, 0.456);
         z-index: 2;
         transition: 0.5s;
@@ -488,7 +640,7 @@ ul {
     .menu ul {
         display: inline;
         list-style: none;
-        margin:50px;
+        margin: 50px;
         padding: 50px;
     }
 
@@ -657,10 +809,10 @@ ul {
 
     #sideNav {
         width: 300px;
-        height:100vh;
+        height: 100vh;
         position: absolute;
         right: -350px;
-        top:0px;
+        top: 0px;
         background-color: rgba(153, 205, 50, 0.456);
         z-index: 2;
         transition: 0.5s;
@@ -698,7 +850,7 @@ ul {
     .menu ul {
         display: inline;
         list-style: none;
-        margin:50px;
+        margin: 50px;
         padding: 50px;
     }
 
