@@ -14,3 +14,5 @@ menuBtn.onclick = function(){
         menu.src = "images/menu.png";
     }
 }
+
+// ========================  //

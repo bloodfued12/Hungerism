@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hungerism</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="" />
@@ -27,11 +27,12 @@
                     <ul>
                         <li><a href="index.html">HOME</a></li>
                         <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="calender.html">CALENDER</a></li>
+                        <li><a href="#">CALENDER</a></li>
                         <li><a href="#">SHOPPING LIST</a></li>
                         <li><a href="#">RECIPES</a></li>
                     </ul>
-                </nav><!--the main navbar list start here-->
+                </nav>
+                <!--the main navbar list start here-->
             </div>
 
             <div class="search">
@@ -44,31 +45,39 @@
             <div id="menuBtn">
                 <img src="./images/menu.png" id="menu" alt="img" />
             </div>
-
         </div>
 
         <!--the main content container start here -->
-        <div class="content-main">
-            <div class="content">
-                <!--the sub container of main container -->
-                <h1>Welcome To <br /><span>Hungerism</span></h1>
-                <br />
-                <p class="par">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio ea neque error aliquid voluptas nemo
-                    aliquam praesentium ipsa ut suscipit dolor dolore nam amet quia, eligendi dolorum provident vel?
-                    Facere?
-                </p>
-
-                <button type="button" onclick="location.href=''">
-                    More Info <i class="ri-arrow-drop-right-line"></i>
-                </button>
+        <div class="calender-main">
+            <div class="calender">
+                <div class="calender-heading">
+                    <h1>My Calendar</h1>
+                </div>
+                <div class="days">
+                    <div class="day">Sun</div>
+                    <div class="day">Mon</div>
+                    <div class="day">Tue</div>
+                    <div class="day">Wed</div>
+                    <div class="day">Thu</div>
+                    <div class="day">Fri</div>
+                    <div class="day">Sat</div>
+                </div>
+                <div class="dates" id="dates-container"></div>
             </div>
-            <div class="content two">
-                <img class="home-image" src="./images/profile.png" alt="image">
-            </div>
+            <div class="calender two">
+                
+                <form id="eventForm">
+                    <h2>Add Groceries</h2>
+                    <label for="eventTitle">Item Name:</label>
+                    <input type="text" id="eventTitle" name="eventTitle" placeholder="Please enter your item name" />
 
+                    <label for="eventTime">Time:</label>
+                    <input type="time" id="eventTime" name="eventTime" required />
+
+                    <button type="submit">Save Event</button>
+                </form>
+            </div>
         </div>
-
 
         <!--the mian footer container starts here-->
         <footer class="footer">
@@ -103,8 +112,6 @@
                 </div>
             </div>
         </footer>
-
-
     </div>
 
     <script src="./script.js"></script>
