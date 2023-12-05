@@ -474,6 +474,83 @@ form input:focus {
     font-size: 65px;
 }
 
+/* --------------------------------recipe.html starts here ------------ */
+.recipe-main {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 20px auto;*/
+    /* border: 2px solid red;  */
+    /* background: url();
+    background-repeat: no-repeat; */
+}
+
+.recipe {
+    width: 50%;
+    height: 600px;
+    color: white;
+    position: relative;
+    /* border: 2px solid red; */
+    padding: 50px;
+}
+
+.two {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    /* border: 2px solid white; */
+}
+
+.search-bar-main{
+    /* border: 2px solid white; */
+    margin: auto ;
+}
+
+.search-bar-main h2{
+    color:yellowgreen;
+    text-align: center;
+    margin: 20px auto;
+    border: 2px solid yellowgreen;
+    border-radius: 20px;
+    padding:20px;
+}
+
+.search-bar{
+    font-family: "Times New Roman";
+    width: 500px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid yellowgreen;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 30%;
+}
+
+.recipe-card{
+    width: 200px;
+    height:300px;
+    display: inline-block;
+    margin: 10px;
+    background-color: yellowgreen;
+    margin-top:90px;
+    border-radius: 30px;
+}
+
+.recipe-card2{
+    width: 200px;
+    height:300px;
+    display: inline-block;
+    margin: 10px;
+    background-color: yellowgreen;
+    margin-top:90px;
+    border-radius: 30px;
+}
 /* --------------------------------footer styling starts here ------------ */
 .footer {
     width: 100%;
