@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hungerism -</title>
+    <title>Hungerism</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
@@ -29,7 +29,6 @@
                         <li><a href="about.html">ABOUT</a></li>
                         <li><a href="calender.html">CALENDER</a></li>
                         <li><a href="shopping.html">SHOPPING LIST</a></li>
-                        <li><a href="recipe.html">RECIPES</a></li>
                     </ul>
                 </nav><!--the main navbar list start here-->
             </div>
@@ -48,27 +47,28 @@
         </div>
 
         <!--the main content container start here -->
-        <div class="content-main">
-            <div class="content">
-                <!--the sub container of main container -->
-                <h1>Welcome To <br /><span>Hungerism</span></h1>
-                <br />
-                <p class="par">
-                    Yyour one-stop destination for delectable recipes, culinary inspiration, and culinary adventures. 
-                    Whether you're a seasoned chef or a curious amateur, we're here to guide you through the world of flavors and textures, 
-                    helping you create culinary masterpieces that will tantalize your taste buds and impress your guests.
-                </p>
-
-                <button type="button" onclick="location.href=''">
-                    More Info <i class="ri-arrow-drop-right-line"></i>
-                </button>
+        <div class="search-bar-main">
+            
+            <input class="search-bar" type="search" name="content" placeholder="Type To Text" />
+                    <button type="button" onclick="location.href='#'">
+                        <i class="ri-search-2-fill"></i>
+                    </button>
+                    <h2>Most Recommended Recipes</h2>
+        </div>
+        <div class="recipe-main">
+            <div class="recipe">
+                <div class="recipe-card"></div>
+                <div class="recipe-card"></div>
+                <div class="recipe-card"></div>
+            
             </div>
-            <div class="content two">
-                <img class="home-image" src="./images/profile.png" alt="image">
+            <div class="repice two">
+                <div class="recipe-card2"></div>
+                <div class="recipe-card2"></div>
+                <div class="recipe-card2"></div>
             </div>
 
         </div>
-
 
         <!--the main footer container starts here-->
         <footer class="footer">
@@ -78,15 +78,16 @@
                     <div class="footer-col">
                         <h4>Quick Links</h4>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Recipe</a></li>
-                            <li><a href="#">Shopping List</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="calender.html">Calendar</a></li>
+                            <li><a href="shopping.html">Shopping List</a></li>
+                            <li><a href="shopping.html">Recipe</a></li>
                         </ul>
                     </div>
                     <div class="footer-col">
                         <h4>Contact Address</h4>
-                        <br />
+                        <br/>
                         <h3>+44-123456789</h3>
                         <br />
                         <h3>abcdefg@gmail.com</h3>

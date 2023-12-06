@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hungerism</title>
-
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
@@ -23,14 +22,15 @@
                 </a>
             </div>
 
-            <div class="menu">
-                <!--the main navbar list start here-->
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="calender.html">CALENDER</a></li>
-                    <li><a href="shopping.html">SHOPPING LIST</a></li>
-                    <li><a href="recipe.html">RECIPES</a></li>
-                </ul>
+            <div class="menu" id="sideNav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="calender.html">CALENDER</a></li>
+                        <li><a href="recipe.html">RECIPES</a></li>
+                    </ul>
+                </nav><!--the main navbar list start here-->
             </div>
 
             <div class="search">
@@ -39,41 +39,35 @@
                     <i class="ri-search-2-fill"></i>
                 </button>
             </div>
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="ri-menu-5-line"></i>
+
+            <div id="menuBtn">
+                <img src="./images/menu.png" id="menu" alt="img" />
             </div>
+
         </div>
 
         <!--the main content container start here -->
-        <div class="Aboutinfo">
-            <h2>About Us</h2>
-        </div>
+        <div class="shopping-main">
+            <div class="shopping">
+                <div class="expiry_list">
+                    <h2>Expiry List</h2>
 
-        <div class="about-intro">
-            <p class="intro">
-                your one-stop destination for delectable recipes, culinary inspiration, and culinary adventures. 
-                Whether you're a seasoned chef or a curious amateur, we're here to guide you through the world of flavors and textures, 
-                helping you create culinary masterpieces that will tantalize your taste buds and impress your guests.
-            </p>
-        </div>
-
-        <div class="about-main">
-            <div class="about">
-                <p class="par">
-                    We are hungarism - Embark with us on a journey of culinary discovery with our vast collection of recipes, spanning a wide range of cuisines, from classic Italian dishes to tantalizing Asian flavors, and everything in between. Whether you're craving a comforting bowl of pasta, a spicy curry, or a decadent dessert, we have something for everyone.
-                    Our recipes are crafted with simplicity and ease in mind, ensuring that even the most novice cooks can create restaurant-quality meals in the comfort of their own kitchens. We believe that cooking should be a fun and rewarding experience, not a daunting task.                    
-                    Alongside our recipes, we also provide insightful tips and tricks to elevate your cooking skills. Learn about the art of knife skills, master the perfect sauté, and discover the secrets to baking the fluffiest cakes. We're here to help you become a culinary pro.                    
-                    So, what are you waiting for? Dive into our world of recipes, explore new flavors, and embark on a culinary journey that will tantalize your senses. Let [Website Name] be your guide to a world of delicious possibilities. 
-                </p>
+                </div>
             </div>
-            <div class="about two">
-                <img class="home-image" src="./images/profile.png" alt="image">
-            </div>
+            <div class="shopping two">
+                <div class="pur_list">
+                    <h2>Purchased List</h2>
 
+                    <button type="button" class="list" onclick="location.href=''">
+                        Add Item
+                    </button>
+                </div>
+                
+            </div>
         </div>
 
 
-        <!--the mian footer container starts here-->
+        <!--the main footer container starts here-->
         <footer class="footer">
             <div class="footer-main">
                 <!--the sub container of the footer contain three section-->
@@ -83,7 +77,7 @@
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
-                            <li><a href="#">Recpie</a></li>
+                            <li><a href="#">Recipe</a></li>
                             <li><a href="#">Shopping List</a></li>
                         </ul>
                     </div>
