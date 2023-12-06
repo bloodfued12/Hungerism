@@ -41,15 +41,9 @@ body {
 }
 
 .logo {
-    width: auto;
-    color: yellowgreen;
-    font-size: 35px;
-    font-family: Arial;
-    padding-left: 16px;
-    text-align: center;
-    padding-top: 14px;
+    width: 155px;
+    height: 61px;
     margin-top: 5px;
-    /* border: 2px solid red; */
 }
 
 .menu {
@@ -660,13 +654,11 @@ ul {
     }
 
     .logo {
-        color: yellowgreen;
-        width: 100px;
-        font-size: 25px;
-        font-family: Arial;
-        text-align: center;
-        padding: 12px;
-        /* border: 2px solid red; */
+        width: 50px;
+        height: 100px;
+        margin: 50px 25px auto 25px;
+        position: relative;
+
     }
 
     .search {
