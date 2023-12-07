@@ -607,7 +607,7 @@ form input:focus {
 
 .recipe-card {
     width: 300px;
-    height: 300px;
+    height: 500px;
     background-color: yellowgreen;
     margin: 30px;
     display: inline-block;
@@ -616,7 +616,7 @@ form input:focus {
 
 .recipe-card2 {
     width: 300px;
-    height: 300px;
+    height: 500px;
     background-color: yellowgreen;
     margin: 30px;
     position: relative;
