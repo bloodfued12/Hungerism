@@ -372,10 +372,16 @@ button:focus {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 iframe {
     margin: auto;
 }
 
+=======
+iframe{
+    margin: auto;
+}
+>>>>>>> origin/feature/add-cal
 .two {
     width: 50%;
     height: 600px;
