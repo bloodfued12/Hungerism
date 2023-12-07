@@ -16,3 +16,45 @@ menuBtn.onclick = function(){
 }
 
 // ========================  //
+
+////Calling API Suggestic
+
+const apiUrl = 'https://production.suggestic.com/graphql';
+const headers = {
+  'Content-Type': 'application/json',  
+  'Authorization': 'Bearer Token e7bdd934c9d30245185fe916e16dfd5c0acc13cc',
+  'sg-user': '714cdff4-2b1c-4101-b323-60b9359d99c4'
+};
+
+///fleching data
+
+fetch("apiUrl", {
+  method: "POST",
+  headers: headers,
+  body: JSON.stringify({
+    query: `
+    {
+        searchRecipesByIngredients(
+          mustIngredients: ["chicken"]
+        ) {
+          edges {
+            node {
+              name
+              ingredients {
+                name
+              }
+             ingredientLines
+            }
+          }
+        }
+      }`,
+  }),
+})
+
+  .then(response => response.json())
+  .then(data => {
+    const radmonRecipies = "searchRecipesByIngredients"
+})
+  .catch(error => {
+    console.error('Error fetching API data:', error);
+  });
