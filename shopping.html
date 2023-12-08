@@ -49,13 +49,15 @@
         <!--the main content container start here -->
         <div class="shopping-main">
             <div class="shopping">
-                <div class="expiry_list">
+                <div class="expiry_list" id="expiryList" draggable="true">
                     <h2>Expiry List</h2>
-
+                    <!-- <p>Item 1</p>
+                    <p>Item 2</p>
+                    <p>Item 3</p> -->
                 </div>
             </div>
             <div class="shopping two">
-                <div class="pur_list">
+                <div class="pur_list" id="purchasedList" ondrop="handleDrop(event)" ondragover="allowDrop(event)">
                     <h2>Purchased List</h2>
 
                     <button type="button" class="list" onclick="location.href=''">

@@ -125,3 +125,52 @@ function handleSearchButtonClick() {
 // Add click event listener to the search button
 const searchButton = document.querySelector('.search-bar-main button');
 searchButton.addEventListener('click', handleSearchButtonClick);
+
+//============================= shopping list ===================//
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Get the elements
+  const expiryList = document.querySelector('.expiry_list');
+  const purchasedList = document.querySelector('.pur_list');
+
+  // Add drag and drop event listeners
+  expiryList.addEventListener('dragstart', handleDragStart);
+  purchasedList.addEventListener('dragover', handleDragOver);
+  purchasedList.addEventListener('drop', handleDrop);
+
+  function handleDragStart(event) {
+      event.dataTransfer.setData('text/plain', event.target.textContent);
+  }
+
+  function handleDragOver(event) {
+      event.preventDefault();
+      event.dataTransfer.dropEffect = 'move';
+  }
+
+  function handleDrop(event) {
+      event.preventDefault();
+
+      // Get the data being dragged
+      const data = event.dataTransfer.getData('text/plain');
+
+      // Create a new list item with the dragged data
+      const newItem = document.createElement('li');
+      newItem.textContent = data;
+
+      // Append the new item to the purchased list
+      purchasedList.appendChild(newItem);
+  }
+});
+
+
+function allowDrop(event) {
+  event.preventDefault();
+}
+
+function handleDrop(event) {
+  event.preventDefault();
+  var data = event.dataTransfer.getData("text");
+  var newItem = document.createElement('p');
+  newItem.textContent = data;
+  event.target.appendChild(newItem);
+}
