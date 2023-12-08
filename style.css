@@ -610,6 +610,7 @@ form input:focus {
     height: 500px;
     background-color: yellowgreen;
     margin: 30px;
+    margin-left:100px ;
     display: inline-block;
     border-radius: 20px;
 }
@@ -619,6 +620,7 @@ form input:focus {
     height: 500px;
     background-color: yellowgreen;
     margin: 30px;
+    margin-left: 100px;
     position: relative;
     display: inline-block;
     border-radius: 20px;
