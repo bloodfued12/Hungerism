@@ -316,9 +316,9 @@ button:focus {
     border-radius: 20px;
 }
 
-/*--------------------- calender.html styling starts here ----------------*/
+/*--------------------- calendar.html styling starts here ----------------*/
 
-.calender-main {
+.calendar-main {
     width: 100%;
     height: 600px;
     display: flex;
@@ -329,7 +329,7 @@ button:focus {
     background-repeat: no-repeat; */
 }
 
-.calender {
+.calendar {
     width: 50%;
     height: 600px;
     color: white;
@@ -338,7 +338,7 @@ button:focus {
     padding: 50px;
 }
 
-.calender-heading {
+.calendar-heading {
     background-color: yellowgreen;
     color: #3f3e3e;
     padding: 10px;
@@ -370,6 +370,10 @@ button:focus {
     text-align: center;
     border: 1px solid #ccc;
     cursor: pointer;
+}
+
+iframe {
+    margin: auto;
 }
 
 .two {
@@ -468,7 +472,7 @@ form input:focus {
     font-size: 65px;
 }
 
-/* --------------------------------shopping.html starts here ------------ */
+/* --------------------------------shopping styling starts here ------------ */
 .shopping-main {
     width: 100%;
     height: 600px;
@@ -494,58 +498,61 @@ form input:focus {
     height: 600px;
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
     /* border: 2px solid white; */
 }
 
-.expiry_list h2{
-    width: 220px;
-    font-family: sans-serif;
-    text-align: center;
-    color: yellowgreen;
-    font-size: 22px;
-    background-color: black;
-    border-radius: 10px;
-    /* border: 5px solid blue; */
-    margin:auto;
-    padding: 8px;
-}
-
-.pur_list h2{
-    width: 220px;
-    font-family: sans-serif;
-    text-align: center;
-    color: yellowgreen;
-    font-size: 22px;
-    background-color: black;
-    border-radius: 10px;
-    margin:auto;
-    padding: 8px;
-}
-
-.expiry_list, .pur_list{
-    width:500px;
+.expiry_list {
+    width: 500px;
     height: 500px;
     background-color: yellowgreen;
-    margin:auto;
     border-radius: 20px;
+    margin: auto;
 }
 
-.list{
-    margin: 350px 200px;
+.pur_list {
+    width: 500px;
+    height: 500px;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    margin: auto;
 }
 
+.pur_list h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: yellowgreen;
+    font-size: 22px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 8px;
+}
 
+.expiry_list h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: yellowgreen;
+    font-size: 22px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 8px;
+}
 
+.list {
+    margin: 380px 200px;
+}
 
-/* --------------------------------recipe.html starts here ------------ */
+/* --------------------------------recipe styling starts here ------------ */
 .recipe-main {
     width: 100%;
     height: 600px;
     display: flex;
     flex-wrap: wrap;
-    /* margin: 20px auto;*/
-    /* border: 2px solid red;  */
+    /* margin: 20px auto;
+    border: 2px solid red; */
     /* background: url();
     background-repeat: no-repeat; */
 }
@@ -564,57 +571,60 @@ form input:focus {
     height: 600px;
     display: flex;
     flex-wrap: wrap;
+    /* border: 2px solid white; */
     padding: 50px;
-    /* border: 2px solid white; */
 }
 
-.search-bar-main{
-    /* border: 2px solid white; */
-    margin: auto ;
-}
+/* .search-bar-main{
+    
+} */
 
-.search-bar-main h2{
-    color:yellowgreen;
-    text-align: center;
-    margin: 20px auto;
-    border: 2px solid yellowgreen;
-    border-radius: 20px;
-    padding:20px;
-}
-
-.search-bar{
+.search-bar {
     font-family: "Times New Roman";
     width: 500px;
     height: 40px;
     background: transparent;
     border: 2px solid yellowgreen;
     margin-top: 20px;
+    margin-left: 300px;
     color: #fff;
     font-size: 16px;
     padding: 10px;
     border-radius: 10px;
-    margin-left: 30%;
+    margin-bottom: 20px;
 }
 
-.recipe-card{
-    width: 200px;
-    height:300px;
-    display: inline-block;
-    margin: 10px;
-    background-color: yellowgreen;
-    margin-top:90px;
-    border-radius: 30px;
+.search-bar-main h2 {
+    color: yellowgreen;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-top: 10px;
 }
 
-.recipe-card2{
-    width: 200px;
-    height:300px;
-    display: inline-block;
-    margin: 10px;
+.recipe-card {
+    width: 300px;
+    height: 500px;
     background-color: yellowgreen;
-    margin-top:90px;
-    border-radius: 30px;
+    margin: 30px;
+    margin-left:100px ;
+    display: inline-block;
+    border-radius: 20px;
 }
+
+.recipe-card2 {
+    width: 300px;
+    height: 500px;
+    background-color: yellowgreen;
+    margin: 30px;
+    margin-left: 100px;
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+}
+
 /* --------------------------------footer styling starts here ------------ */
 .footer {
     width: 100%;
